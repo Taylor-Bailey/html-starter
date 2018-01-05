@@ -1,18 +1,11 @@
-body {
-    background-color: rgb(221, 236, 255);
+.container {
+    background-color: rgb(69, 127, 202);
 }
 
-h1, section, title {
-    color: rgb(36, 36, 43);
-    outline-color: aliceblue;
-    outline-width: 3px;
-}
-
-li {
-    color: rgb(36, 36, 43);
-}
-
-.header-image {
-    display: block;
-    margin: auto;
+#heading {
+    width: 563px;
+    text-align:center;
+    width:100%;
+    display:block;
+    margin:auto
 }
