@@ -6,6 +6,7 @@ body {
     background-color: rgb(255, 238, 242);
 }
 
+/* Image and Heading Styles */
 #heading {
     width: 563px;
     text-align:center;
@@ -31,18 +32,27 @@ body {
     color:rgb(24, 19, 94);
 }
 
+/* JavaScript Styles */
 .main-title {
-    text-align: center;
+    text-align: left;
     color:rgb(24, 19, 94);
+    margin-left: 40%;
 }
 
-.links li {
+.java-space {
+    margin-left: 2em;
+}
+
+/* Navigation Styles */
+nav li {
     display: inline-block;
     margin-left: 2rem;
     margin-right: 2rem;
     font-size: 20px;
     text-align: auto;
     padding: 0;
+    list-style: none;
+    color:rgb(24, 19, 94);
 }
 
 a {
@@ -50,6 +60,7 @@ a {
    color:rgb(24, 19, 94);
 }
 
+/* Article Styles */
 .flex-container {
     display: flex;
     display: -webkit-flex;
@@ -60,6 +71,7 @@ a {
     margin: 1em;
 }
 
+/* Footer Styles */
 footer {
     background-color:rgb(24, 19, 94);
     color: rgb(255, 238, 242);
